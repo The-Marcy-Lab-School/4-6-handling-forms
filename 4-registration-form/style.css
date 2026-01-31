@@ -1,37 +1,24 @@
 .error {
-  color: #ff4d4f;
+  color: red;
   font-size: 0.875rem;
-  display: block;
   min-height: 1.25rem;
-  margin-top: 0.25rem;
 }
 
 input.error {
-  border-color: #ff4d4f;
+  border: 2px solid red;
 }
 
 input.valid {
-  border-color: #52c41a;
+  border: 2px solid green;
 }
 
 #success-message {
-  background: #f6ffed;
-  border: 2px solid #b7eb8f;
-  padding: 1.5rem;
-  border-radius: 8px;
   margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid green;
   display: none;
 }
 
 #success-message.show {
   display: block;
-}
-
-#success-message h3 {
-  color: #52c41a;
-  margin-bottom: 0.5rem;
-}
-
-#success-message p {
-  color: #333;
 }
