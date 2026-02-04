@@ -9,18 +9,15 @@ body {
   padding: 1rem;
 }
 
-form > div {
+form>div {
   margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 input,
 textarea {
-  width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
 }
@@ -33,13 +30,14 @@ button {
 }
 
 /* Output styling */
-#output {
+.output {
   margin-top: 2rem;
   padding: 1rem;
   border: 1px solid #ddd;
-  display: none;
 }
 
-#output.show {
-  display: block;
+.checkbox-field {
+  display: flex;
+  flex-direction: row;
+
 }
